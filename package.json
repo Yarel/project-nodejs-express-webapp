@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node app",
-    "test": "jest"
+    "test": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "description": "nodejs-webapp-express",
   "author": {
@@ -23,6 +23,7 @@
     "node": "~6.10.x"
   },
   "devDependencies": {
+    "coveralls": "^3.0.9",
     "jest": "^25.1.0"
   }
 }
