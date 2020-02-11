@@ -5,6 +5,8 @@
 
 # Nodejs Express web application
 
+![La Paz Cloud pipeline example with Github Actions](https://github.com/lapazcloud/project-nodejs-express-webapp/workflows/La%20Paz%20Cloud%20pipeline%20example%20with%20Github%20Actions/badge.svg)
+
 Sample Nodejs Express web application built using Visual Studio 2017.
 
 ## License:
