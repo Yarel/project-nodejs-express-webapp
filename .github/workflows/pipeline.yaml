@@ -1,0 +1,18 @@
+name: La Paz Cloud pipeline example with Github Actions
+
+on:
+- push
+
+jobs:
+  build:
+    runs-on: ubuntu-latestn
+
+    steps:
+    - name: Install dependencies
+      uses: actions/setup-node@v1
+
+    - run: npm install
+      env:
+        CI: true
+
+    - run: npm test
