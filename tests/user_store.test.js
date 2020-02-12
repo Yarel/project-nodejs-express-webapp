@@ -25,5 +25,5 @@ test('Delete users', () => {
 
   UserStore.delete(1);
 
-  expect(UserStore.getUsers().length).toBe(1);
+  expect(UserStore.getUsers().length).toBe(215);
 })
