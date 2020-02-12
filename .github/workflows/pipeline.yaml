@@ -15,8 +15,8 @@ jobs:
       uses: actions/setup-node@v1
 
     - run: npm install
-      # env:
-      #   CI: true
+      env:
+        CI: true
 
     - run: git status
 

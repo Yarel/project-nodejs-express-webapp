@@ -6,7 +6,7 @@ class UserStore {
   }
 
   add(user) {
-    // this.users[user.id] = user;
+    this.users[user.id] = user;
     console.log('added');
     console.log(this.users);
     return true;
