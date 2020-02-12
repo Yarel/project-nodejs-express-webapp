@@ -18,6 +18,8 @@ jobs:
       env:
         CI: true
 
+    - run: git status
+
     - run: npm test
       env:
         COVERALLS_REPO_TOKEN: "${{ secrets.COVERALLS_REPO_TOKEN }}"
